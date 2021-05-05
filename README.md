@@ -10,11 +10,15 @@ To start the application clone the repository and then set up Mongo DB on your c
 
 After this open a terminal and go to the backend folder and type the command
 
-### npm start
+```
+npm start
+```
 
 then in a serpate terminal go to the frontend folder and run
 
-### npm run dev
+```
+npm run dev
+```
 
 The application will then run on localhost:3000
 
