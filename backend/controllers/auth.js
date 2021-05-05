@@ -7,8 +7,6 @@ const { errorHandler } = require('../helpers/dbErrorHandler');
 const _ = require('lodash');
 const { OAuth2Client } = require('google-auth-library');
 // sendgrid
-const sgMail = require('@sendgrid/mail'); // SENDGRID_API_KEY
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const { sendEmailWithNodemailer } = require("../helpers/email");
 
 exports.preSignup = (req, res) => {
